@@ -14,8 +14,8 @@ public class LoginTest extends TestBase {
     public void loginTestSuccess() throws Exception {
         // set test's data
         User user = new User();
-        user.setLogin("nazarenkod1990@gmail.com");
-        user.setPassword("killer59671990");
+        user.setLogin("login");
+        user.setPassword("password");
 
         //do test
 
@@ -27,7 +27,7 @@ public class LoginTest extends TestBase {
     public void loginTestFailed() throws Exception {
         // set test's data
         User user = new User();
-        user.setLogin("nazarenkod1990@gmail.com");
+        user.setLogin("login");
         user.setPassword("wrong");
 
         //do test
